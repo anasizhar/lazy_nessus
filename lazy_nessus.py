@@ -1,4 +1,3 @@
-#!/usr/bin/python
 import requests, json, time, urllib3, sys
 
 """
