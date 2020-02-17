@@ -42,7 +42,7 @@ else:
   t = requests.get(url = URL, headers=headers, verify = False)
   data = t.json()
 
-  print("[+] Extracting Report ...")
+  print("[+] Extracting Report ...\n")
 
   for site, folder in sites.items():
     URL = BaseURL+"/scans/"+folder+"/export"
