@@ -6,16 +6,16 @@ You need to put site name and ID in below dict format with key as site name and 
 Lazy_nessus will use this key to rename the report. 
 """
 sites = {
-    'SpringHill' : '727',
-    'Bend':'708',
-    'Beckley':'707',
-    'New Braunfels':'723',
-    'Charleston':'719',
-    'Hampton':'721',
-    'San Antonio' : '726',
-    'Elkins' : '720',
-    'Pittsburg' : '724',
-    'Kingston' : '2073'
+    'Site 1' : '727',
+    'Site 2':'708',
+    'Site 3':'707',
+    'Site 4':'723',
+    'Site 5':'719',
+    'Site 6':'721',
+    'Site 7' : '726',
+    'Site 8' : '720',
+    'Site 9' : '724',
+    'Site 10' : '2073'
 
 }
 
