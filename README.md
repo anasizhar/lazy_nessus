@@ -3,7 +3,7 @@ If you deal with PCI or have a need to extract periodically scheduled scan repor
 
 
 # How to use
-lazy_nessus.py <URL:PORT> <Username> <Password>
+lazy_nessus.py [URL:PORT] [Username] [Password]
 
 Lazy_nessus takes 3 arguments by default:
 1- URL to nessus login page
