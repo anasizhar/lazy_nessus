@@ -10,6 +10,7 @@ Lazy_nessus takes 3 arguments by default:
 2- Username 
 3- Password 
 
+Please read the comments in code before using it, you might to curate it as per your environment.
 Example:
 
 lazy_nessus.py https://127.0.0.1:8834 admin password
