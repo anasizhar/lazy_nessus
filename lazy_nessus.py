@@ -2,7 +2,10 @@ import requests, json, time, urllib3, sys
 
 """
 You need to put site name and ID in below dict format with key as site name and value as folder ID appearing in the URL of nessus folder. 
-Lazy_nessus will use this key to rename the report. 
+Lazy_nessus will use this key to rename the report. Like for example on the web interface, URL for your specific report will look like this:
+https://127.0.0.1:8834/#/scans/reports/1316/hosts, put the number after /reprots/ in url and place in the site dict in this format: 
+
+sites = {'Report_name_you_want':'1316'}
 """
 sites = {
     'Site 1' : '727',
