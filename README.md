@@ -14,6 +14,6 @@ Example:
 
 lazy_nessus.py https://127.0.0.1:8834 admin password
 
-NOTE: Please read the comments in code before using it, you might to curate it as per your environment.
+NOTE: Please read the comments in code before using it, you might need to curate it as per your environment.
 # Requirements
 python3
